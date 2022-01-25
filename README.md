@@ -1,5 +1,5 @@
 # vue-avatar-sdh
-# Inspired from [vue-avatar](https://github.com/eliep/vue-avatar)
+## Inspired from [vue-avatar](https://github.com/eliep/vue-avatar)
 
 An avatar component for vue.js.
 
