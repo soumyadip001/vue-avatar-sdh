@@ -54,3 +54,33 @@ After that, you can use it in your templates:
 ```html
 <avatar username="Soumyadip Hazra"></avatar>
 ```
+
+### Basic Usage with username
+
+By default it creates 2 letter initials. But you can customize it as per your need. `maxAllowedLength` allows you to pass any number. It also automatically checks for number of words available and it omit middle names if needed.
+
+```html
+<div class="row">
+	<div class="items">
+		<Avatar username="Rickdev" :inline="true" />
+	</div>
+	<div class="items">
+		<Avatar username="Rickdev Hazra" :inline="true" />
+	</div>
+	<div class="items">
+		<Avatar
+			username="Rickdev Kumar Hazra"
+			:inline="true"
+			:maxAllowedLength="3"
+		/>
+	</div>
+</div>
+```
+
+Also the initials are automatically removed from initials. It automatically detects the abbreviations and remove them from initials.
+
+```html
+<div class="items">
+	<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
+</div>
+```
