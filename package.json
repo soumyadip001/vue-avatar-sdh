@@ -2,6 +2,7 @@
   "name": "vue-avatar-sdh",
   "version": "1.0.0",
   "description": "An avatar component for vue.js same as vue-avatar only written on Vue3 and TypeScript. It now supports many different styles. It can also be heavily customized as per design needs.",
+  "license": "MIT",
   "main": "dist/vue-avatar-sdh.ssr.js",
   "browser": "dist/vue-avatar-sdh.esm.js",
   "module": "dist/vue-avatar-sdh.esm.js",
