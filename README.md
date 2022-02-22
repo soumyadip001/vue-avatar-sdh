@@ -90,18 +90,10 @@ Also the initials are automatically removed from initials. It automatically dete
 How to pass name to generate initials? It very simple actually. Just pass the `username` attribute to the `<Avatar />` component and it's done. You can also control how many initials will the shown in the avatar.
 
 ```html
-<div class="items">
-	<Avatar username="Rickdev" :inline="true" />
-</div>
-<div class="items">
-	<Avatar username="Rickdev Hazra" :inline="true" />
-</div>
-<div class="items">
-	<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
-</div>
-<div class="items">
-	<Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
-</div>
+<Avatar username="Rickdev" :inline="true" />
+<Avatar username="Rickdev Hazra" :inline="true" />
+<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
+<Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
 ```
 
 ### Name with abbreviations
@@ -116,18 +108,10 @@ What if the username can contain abbreviations? No worries we have got you cover
 ### Background Color `backgroundColor`
 
 ```html
-<div class="items">
-	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#F44336" />
-</div>
-<div class="items">
-	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#FF4081" />
-</div>
-<div class="items">
-	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#9C27B0" />
-</div>
-<div class="items">
-	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#673AB7" />
-</div>
+<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#F44336" />
+<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#FF4081" />
+<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#9C27B0" />
+<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#673AB7" />
 ```
 
 ### Foreground Color `color`
