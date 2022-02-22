@@ -96,6 +96,10 @@ How to pass name to generate initials? It very simple actually. Just pass the `u
 <Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
 ```
 
+![Basic Usage](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen1.png)
+
+-----
+
 ### Name with abbreviations
 
 What if the username can contain abbreviations? No worries we have got you covered. It'll automatically be parsed out and the name will be taken to generate the Avatar. Also notice the different between the two `Dr` and `Dr.`
@@ -105,6 +109,10 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Dr. Soumyadip Hazra" :inline="true" />
 ```
 
+![Name with abbreviations](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen2.png)
+
+-----
+
 ### Background Color `backgroundColor`
 
 ```html
@@ -113,6 +121,10 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#9C27B0" />
 <Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#673AB7" />
 ```
+
+![Background Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen3.png)
+
+-----
 
 ### Foreground Color `color`
 
@@ -143,6 +155,10 @@ What if the username can contain abbreviations? No worries we have got you cover
 />
 ```
 
+![Foreground Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen4.png)
+
+-----
+
 ### Lighten Color `lighten`
 
 ```html
@@ -153,12 +169,20 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" :lighten="100" />
 ```
 
+![Lighten Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen5.png)
+
+-----
+
 ### Border Radius `rounded`
 
 ```html
 <Avatar username="Soumyadip Hazra" :inline="true" :rounded="true" />
 <Avatar username="Soumyadip Hazra" :inline="true" :rounded="false" />
 ```
+
+![Border Radius](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen6.png)
+
+-----
 
 ### Sizes `size`
 
@@ -168,6 +192,10 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" :size="70" />
 <Avatar username="Soumyadip Hazra" :inline="true" :size="80" />
 ```
+
+![Sizes](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen7.png)
+
+-----
 
 ### Custom Style `customStyle`
 
@@ -185,3 +213,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 	border: '3px solid #d6054c',
 	}
 ```
+
+![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png)
+
+-----
