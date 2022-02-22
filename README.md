@@ -17,7 +17,7 @@ Rules used to compute user initials:
 - can be customized heavily
 - custom style can be passed
 
-You can find a few examples and the documentation [here](https://eliep.github.io/vue-avatar)
+You can find a few examples and the documentation [here](https://github.com/soumyadip001/vue-avatar-sdh)
 
 ## Installation
 
@@ -98,7 +98,7 @@ How to pass name to generate initials? It very simple actually. Just pass the `u
 
 ![Basic Usage](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen1.png)
 
------
+---
 
 ### Name with abbreviations
 
@@ -111,7 +111,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Name with abbreviations](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen2.png)
 
------
+---
 
 ### Background Color `backgroundColor`
 
@@ -124,7 +124,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Background Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen3.png)
 
------
+---
 
 ### Foreground Color `color`
 
@@ -157,7 +157,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Foreground Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen4.png)
 
------
+---
 
 ### Lighten Color `lighten`
 
@@ -171,7 +171,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Lighten Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen5.png)
 
------
+---
 
 ### Border Radius `rounded`
 
@@ -182,7 +182,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Border Radius](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen6.png)
 
------
+---
 
 ### Sizes `size`
 
@@ -195,7 +195,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Sizes](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen7.png)
 
------
+---
 
 ### Custom Style `customStyle`
 
@@ -216,4 +216,4 @@ What if the username can contain abbreviations? No worries we have got you cover
 
 ![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png)
 
------
+---
