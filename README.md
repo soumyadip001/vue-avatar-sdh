@@ -84,3 +84,120 @@ Also the initials are automatically removed from initials. It automatically dete
 	<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
 </div>
 ```
+
+### Basic Usage
+
+How to pass name to generate initials? It very simple actually. Just pass the `username` attribute to the `<Avatar />` component and it's done. You can also control how many initials will the shown in the avatar.
+
+```html
+<div class="items">
+	<Avatar username="Rickdev" :inline="true" />
+</div>
+<div class="items">
+	<Avatar username="Rickdev Hazra" :inline="true" />
+</div>
+<div class="items">
+	<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
+</div>
+<div class="items">
+	<Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
+</div>
+```
+
+### Name with abbreviations
+
+What if the username can contain abbreviations? No worries we have got you covered. It'll automatically be parsed out and the name will be taken to generate the Avatar. Also notice the different between the two `Dr` and `Dr.`
+
+```html
+<Avatar username="Dr Soumyadip Hazra" :inline="true" />
+<Avatar username="Dr. Soumyadip Hazra" :inline="true" />
+```
+
+### Background Color `backgroundColor`
+
+```html
+<div class="items">
+	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#F44336" />
+</div>
+<div class="items">
+	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#FF4081" />
+</div>
+<div class="items">
+	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#9C27B0" />
+</div>
+<div class="items">
+	<Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#673AB7" />
+</div>
+```
+
+### Foreground Color `color`
+
+```html
+<Avatar
+	username="Soumyadip Hazra"
+	:inline="true"
+	color="#F44336"
+	backgroundColor="#eadede"
+/>
+<Avatar
+	username="Soumyadip Hazra"
+	:inline="true"
+	color="#FF4081"
+	backgroundColor="#eadede"
+/>
+<Avatar
+	username="Soumyadip Hazra"
+	:inline="true"
+	color="#9C27B0"
+	backgroundColor="#eadede"
+/>
+<Avatar
+	username="Soumyadip Hazra"
+	:inline="true"
+	color="#673AB7"
+	backgroundColor="#eadede"
+/>
+```
+
+### Lighten Color `lighten`
+
+```html
+<Avatar username="Soumyadip Hazra" :inline="true" :lighten="20" />
+<Avatar username="Soumyadip Hazra" :inline="true" :lighten="40" />
+<Avatar username="Soumyadip Hazra" :inline="true" :lighten="60" />
+<Avatar username="Soumyadip Hazra" :inline="true" :lighten="80" />
+<Avatar username="Soumyadip Hazra" :inline="true" :lighten="100" />
+```
+
+### Border Radius `rounded`
+
+```html
+<Avatar username="Soumyadip Hazra" :inline="true" :rounded="true" />
+<Avatar username="Soumyadip Hazra" :inline="true" :rounded="false" />
+```
+
+### Sizes `size`
+
+```html
+<Avatar username="Soumyadip Hazra" :inline="true" :size="40" />
+<Avatar username="Soumyadip Hazra" :inline="true" :size="60" />
+<Avatar username="Soumyadip Hazra" :inline="true" :size="70" />
+<Avatar username="Soumyadip Hazra" :inline="true" :size="80" />
+```
+
+### Custom Style `customStyle`
+
+```html
+<div class="items">
+	<Avatar username="Soumyadip Hazra" :customStyle="customstyle1" />
+</div>
+```
+
+```css
+	.customstyle1: {
+	borderRadius: '10px',
+	color: '#fff',
+	backgroundColor: '#ff4081',
+	border: '3px solid #d6054c',
+	}
+```
