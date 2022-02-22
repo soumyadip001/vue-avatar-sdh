@@ -28,6 +28,7 @@ You can find a few examples and the documentation [here](https://eliep.github.io
 | Vuejs version | vue-avatar-sdh version |
 | ------------- | ---------------------- |
 | ^3.0.5        | ^1.0.0                 |
+| ^3.0.5        | ^1.0.1 		 |
 
 ## Usage
 
