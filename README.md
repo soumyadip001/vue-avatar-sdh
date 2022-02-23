@@ -51,8 +51,9 @@ You can find a few examples and the documentation [here](https://github.com/soum
 
 | Vuejs version | vue-avatar-sdh version |
 | ------------- | ---------------------- |
-| ^3.0.5        | ^1.0.0                 |
-| ^3.0.5        | ^1.0.1 		 |
+| ^3.0.5        | ^1.0.3                 |
+| ^3.0.5        | ^1.0.1 		         |
+| ^3.0.5        | ^1.0.0 		         |
 
 ## Usage
 
@@ -121,7 +122,7 @@ How to pass name to generate initials? It very simple actually. Just pass the `u
 <Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
 ```
 
-![Basic Usage](https://raw.githubusercontent.com/soumyadip001/vue-avatar-sdh/master/screenshots/screen1.png?token=GHSAT0AAAAAABQ3HFHYQ6XE6FC2CZG4JPQUYQV265Q)
+![Basic Usage](https://raw.githubusercontent.com/soumyadip001/vue-avatar-sdh/master/screenshots/screen1.png)
 
 ---
 
@@ -134,7 +135,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Dr. Soumyadip Hazra" :inline="true" />
 ```
 
-![Name with abbreviations](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen2.png)
+![Name with abbreviations](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen2.png?raw=true)
 
 ---
 
@@ -147,7 +148,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" backgroundColor="#673AB7" />
 ```
 
-![Background Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen3.png)
+![Background Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen3.png?raw=true)
 
 ---
 
@@ -180,7 +181,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 />
 ```
 
-![Foreground Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen4.png)
+![Foreground Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen4.png?raw=true)
 
 ---
 
@@ -194,7 +195,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" :lighten="100" />
 ```
 
-![Lighten Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen5.png)
+![Lighten Color](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen5.png?raw=true)
 
 ---
 
@@ -205,7 +206,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" :rounded="false" />
 ```
 
-![Border Radius](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen6.png)
+![Border Radius](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen6.png?raw=true)
 
 ---
 
@@ -218,7 +219,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 <Avatar username="Soumyadip Hazra" :inline="true" :size="80" />
 ```
 
-![Sizes](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen7.png)
+![Sizes](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen7.png?raw=true)
 
 ---
 
@@ -239,7 +240,7 @@ What if the username can contain abbreviations? No worries we have got you cover
 }
 ```
 
-![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png)
+![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png?raw=true)
 
 ---
 

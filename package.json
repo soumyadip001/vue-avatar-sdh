@@ -1,6 +1,6 @@
 {
   "name": "vue-avatar-sdh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An avatar component for vue.js same as vue-avatar only written on Vue3 and TypeScript. It now supports many different styles. It can also be heavily customized as per design needs.",
   "license": "MIT",
   "main": "dist/vue-avatar-sdh.ssr.js",
@@ -55,5 +55,14 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadip001/vue-avatar-sdh.git"
+  },
+  "keywords": [
+    "Avatar", "Avatar Generator", "Avatar Placeholder",
+    "Vue3", "Vue"
+  ],
+  "author": "Soumyadip Hazra < soumyadip.dev.94@gmail.com >"
 }
