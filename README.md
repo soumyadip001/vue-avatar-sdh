@@ -1,5 +1,22 @@
 # vue-avatar-sdh
 
+- [vue-avatar-sdh](#vue-avatar-sdh)
+	- [Inspired from vue-avatar](#inspired-from-vue-avatar)
+	- [Installation](#installation)
+	- [Version](#version)
+	- [Usage](#usage)
+		- [ES6](#es6)
+		- [Basic Usage with username](#basic-usage-with-username)
+		- [Basic Usage](#basic-usage)
+		- [Name with abbreviations](#name-with-abbreviations)
+		- [Background Color `backgroundColor`](#background-color-backgroundcolor)
+		- [Foreground Color `color`](#foreground-color-color)
+		- [Lighten Color `lighten`](#lighten-color-lighten)
+		- [Border Radius `rounded`](#border-radius-rounded)
+		- [Sizes `size`](#sizes-size)
+		- [Custom Style `customStyle`](#custom-style-customstyle)
+
+
 ## Inspired from [vue-avatar](https://github.com/eliep/vue-avatar)
 
 An avatar component for vue.js same as [vue-avatar](https://github.com/eliep/vue-avatar) only written on Vue3 and TypeScript.
