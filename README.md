@@ -15,7 +15,10 @@
 		- [Border Radius `rounded`](#border-radius-rounded)
 		- [Sizes `size`](#sizes-size)
 		- [Custom Style `customStyle`](#custom-style-customstyle)
-
+	- [Props](#props)
+	- [Configs](#configs)
+		- [Supported Abbreviations](#supported-abbreviations)
+		- [Supported background colors](#supported-background-colors)
 
 ## Inspired from [vue-avatar](https://github.com/eliep/vue-avatar)
 
@@ -235,3 +238,39 @@ What if the username can contain abbreviations? No worries we have got you cover
 ![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png)
 
 ---
+
+## Props
+
+Looking for all the supported props and there use cases? We have got you covered here.
+
+| Prop Name | Type | Description |
+| --------- | ---- | ----------- |
+| backgroundColor | String | Any valid hex string will work. ex: `backgroundColor="#F44336"` |
+| color | String | Any valid hex string will work. ex: `backgroundColor="#F44336"` |
+| customStyle | Object | Any valid object with style definations ex: [Custom Style `customStyle`](#custom-style-customstyle) |
+| maxAllowedLength | Number | Number of characters in the avatar. default: 2 |
+| initials | String | Initials with name which should be ignore while generating the avatar. |
+| inline | Boolean | Show inline avatar |
+| lighten | Number | Lighen the color automatically as per background color. default: 80 |
+| rounded | Boolean | Rounded border(`borderRadius` of `50%`) or square(false). default: true |
+| size | Number | `width` and `height` of the avatar in `pixels`. default: 50 |
+| src | String | User provided thumbnail |
+| username | Boolean | (required) The name of the user |
+
+## Configs
+
+### Supported Abbreviations
+
+```javascript
+'Dr', 'Esq', 'Hon', 'Er', 'Jr', 'Mr', 'Mrs', 'Ms', 'Messrs',
+'Mmes', 'Msgr', 'Prof', 'Rev', 'Rt', 'Sr', 'St',
+```
+
+### Supported background colors
+
+```javascript
+'#F44336', '#FF4081', '#9C27B0', '#673AB7',
+'#3F51B5', '#2196F3', '#03A9F4', '#00BCD4', '#009688',
+'#4CAF50', '#8BC34A', '#CDDC39', /* '#FFEB3B' , */ '#FFC107',
+'#FF9800', '#FF5722', '#795548', '#9E9E9E', '#607D8B'
+```
