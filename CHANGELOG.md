@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2022-02-23
+
+### Fixed
+
+- Updated the documentation
+- Fixed the links used inside the doc
+- Added Table of contents for the usability of the documentation
+- Added prop definations
+- Added configuration properties for colors and abbreviations
+
 ## [1.0.1] - 2022-02-22
 
 ### Added
