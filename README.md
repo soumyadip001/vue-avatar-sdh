@@ -1,6 +1,6 @@
 [![vue-avatar-sdh](https://img.shields.io/twitter/url?color=green&label=vue-avatar-sdh&logo=vue-avatar-sdh&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fvue-avatar-sdh)](https://www.npmjs.com/package/vue-avatar-sdh)
 [![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fsoumyadip001)](https://github.com/soumyadip001)
-[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=mailto%3Asoumyadiphazra%40gmail.com)](mailto:soumyadiphazra@gmail.com)
+[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fsoumyadip001)](mailto:soumyadiphazra@gmail.com)
 
 # vue-avatar-sdh
 
@@ -261,6 +261,7 @@ Looking for all the supported props and there use cases? We have got you covered
 | `src` | String | User provided thumbnail if any |
 | `username` | Boolean | (`required`) The name of the user |
 
+-------------------
 ## Configs
 
 ### Supported Abbreviations
@@ -272,24 +273,26 @@ Looking for all the supported props and there use cases? We have got you covered
 
 ### Supported background colors
 
-![#F44336](https://img.shields.io/badge/background-%23F44336-%23F44336)
-![#FF4081](https://img.shields.io/badge/background-%23FF4081-%23FF4081)
-![#9C27B0](https://img.shields.io/badge/background-%239C27B0-%239C27B0)
-![#673AB7](https://img.shields.io/badge/background-%23673AB7-%23673AB7)
+![#F44336](https://img.shields.io/badge/RED-%23F44336-%23F44336)
+![#FF4081](https://img.shields.io/badge/French%20Rose-%23FF4081-%23FF4081)
+![#9C27B0](https://img.shields.io/badge/Barney-%239C27B0-%239C27B0)
+![#673AB7](https://img.shields.io/badge/Purple%20Heart-%23673AB7-%23673AB7)
 
-![#3F51B5](https://img.shields.io/badge/background-%233F51B5-%233F51B5)
-![#2196F3](https://img.shields.io/badge/background-%232196F3-%232196F3)
-![#03A9F4](https://img.shields.io/badge/background-%2303A9F4-%2303A9F4)
-![#00BCD4](https://img.shields.io/badge/background-%2300BCD4-%2300BCD4)
-![#009688](https://img.shields.io/badge/background-%23009688-%23009688)
+![#3F51B5](https://img.shields.io/badge/Sapphire%20Blue-%233F51B5-%233F51B5)
+![#2196F3](https://img.shields.io/badge/Azure-%232196F3-%232196F3)
+![#03A9F4](https://img.shields.io/badge/Butterfly%20Blue-%2303A9F4-%2303A9F4)
+![#00BCD4](https://img.shields.io/badge/Ball%20Blue-%2300BCD4-%2300BCD4)
+![#009688](https://img.shields.io/badge/Teal-%23009688-%23009688)
 
-![#4CAF50](https://img.shields.io/badge/background-%234CAF50-%234CAF50)
-![#8BC34A](https://img.shields.io/badge/background-%238BC34A-%238BC34A)
-![#CDDC39](https://img.shields.io/badge/background-%23CDDC39-%23CDDC39)
-![#FFC107](https://img.shields.io/badge/background-%23FFC107-%23FFC107)
+![#4CAF50](https://img.shields.io/badge/Dark%20Pastel%20Green-%234CAF50-%234CAF50)
+![#8BC34A](https://img.shields.io/badge/Green%20Peas-%238BC34A-%238BC34A)
+![#CDDC39](https://img.shields.io/badge/Wattle-%23CDDC39-%23CDDC39)
+![#FFC107](https://img.shields.io/badge/Golden-%23FFC107-%23FFC107)
 
-![#FF9800](https://img.shields.io/badge/background-%23FF9800-%23FF9800)
-![#FF5722](https://img.shields.io/badge/background-%23FF5722-%23FF5722)
-![#795548](https://img.shields.io/badge/background-%23795548-%23795548)
-![#9E9E9E](https://img.shields.io/badge/background-%239E9E9E-%239E9E9E)
-![#607D8B](https://img.shields.io/badge/background-%23607D8B-%23607D8B)
+![#FF9800](https://img.shields.io/badge/Dark%20Orange-%23FF9800-%23FF9800)
+![#FF5722](https://img.shields.io/badge/Portland%20Orange-%23FF5722-%23FF5722)
+![#795548](https://img.shields.io/badge/Roman%20Coffee-%23795548-%23795548)
+![#9E9E9E](https://img.shields.io/badge/Star%20Dust-%239E9E9E-%239E9E9E)
+![#607D8B](https://img.shields.io/badge/Light%20Slate%20Grey-%23607D8B-%23607D8B)
+
+color names collected from: [artyclick.com](https://colors.artyclick.com/color-name-finder/)
