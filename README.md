@@ -117,7 +117,7 @@ How to pass name to generate initials? It very simple actually. Just pass the `u
 <Avatar username="Rickdev Kumar Hazra" :inline="true" :maxAllowedLength="3" />
 ```
 
-![Basic Usage](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen1.png)
+![Basic Usage](https://raw.githubusercontent.com/soumyadip001/vue-avatar-sdh/master/screenshots/screen1.png?token=GHSAT0AAAAAABQ3HFHYQ6XE6FC2CZG4JPQUYQV265Q)
 
 ---
 
@@ -227,12 +227,12 @@ What if the username can contain abbreviations? No worries we have got you cover
 ```
 
 ```css
-	.customstyle1: {
+.customstyle1: {
 	borderRadius: '10px',
 	color: '#fff',
 	backgroundColor: '#ff4081',
 	border: '3px solid #d6054c',
-	}
+}
 ```
 
 ![Custom Style](https://github.com/soumyadip001/vue-avatar-sdh/blob/master/screenshots/screen8.png)
@@ -245,17 +245,17 @@ Looking for all the supported props and there use cases? We have got you covered
 
 | Prop Name | Type | Description |
 | --------- | ---- | ----------- |
-| backgroundColor | String | Any valid hex string will work. ex: `backgroundColor="#F44336"` |
-| color | String | Any valid hex string will work. ex: `backgroundColor="#F44336"` |
-| customStyle | Object | Any valid object with style definations ex: [Custom Style `customStyle`](#custom-style-customstyle) |
-| maxAllowedLength | Number | Number of characters in the avatar. default: 2 |
-| initials | String | Initials with name which should be ignore while generating the avatar. |
-| inline | Boolean | Show inline avatar |
-| lighten | Number | Lighen the color automatically as per background color. default: 80 |
-| rounded | Boolean | Rounded border(`borderRadius` of `50%`) or square(false). default: true |
-| size | Number | `width` and `height` of the avatar in `pixels`. default: 50 |
-| src | String | User provided thumbnail |
-| username | Boolean | (required) The name of the user |
+| `backgroundColor` | String | Any valid hex string will work. ex: `backgroundColor="#F44336"` |
+| `color` | String | Any valid hex string will work. ex: `color="#F44336"` |
+| `customStyle` | Object | Any valid object with style definations ex: [`customStyle`](#custom-style-customstyle) |
+| `maxAllowedLength` | Number | Number of characters in the avatar. default: 2. ex: [Basic Usage](#basic-usage) |
+| `initials` | String | Initials with name which should be ignore while generating the avatar. |
+| `inline` | Boolean | Show inline avatar |
+| `lighten` | Number | Lighen the color automatically as per background color. default: 80 |
+| `rounded` | Boolean | Rounded border(`borderRadius` of `50%`) or square(false). default: `true` |
+| `size` | Number | `width` and `height` of the avatar in `pixels`. default: 50 |
+| `src` | String | User provided thumbnail if any |
+| `username` | Boolean | (`required`) The name of the user |
 
 ## Configs
 
@@ -274,3 +274,4 @@ Looking for all the supported props and there use cases? We have got you covered
 '#4CAF50', '#8BC34A', '#CDDC39', /* '#FFEB3B' , */ '#FFC107',
 '#FF9800', '#FF5722', '#795548', '#9E9E9E', '#607D8B'
 ```
+https://github.com/soumyadip001/vue-avatar-sdh/blob/6a916f7da9d5de8cec1ef4953964e6b9e0afe4ca/screenshots/screen1.png
