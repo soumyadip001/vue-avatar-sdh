@@ -274,6 +274,8 @@ Looking for all the supported props and there use cases? We have got you covered
 
 ### Supported background colors
 
+If you do not want to pass any `backgroundColor` or `color` as props then a random background color will be applied from the below list of colors. They also supports `lighten` props. It'll get adjusted automatically.
+
 ![#F44336](https://img.shields.io/badge/RED-%23F44336-%23F44336)
 ![#FF4081](https://img.shields.io/badge/French%20Rose-%23FF4081-%23FF4081)
 ![#9C27B0](https://img.shields.io/badge/Barney-%239C27B0-%239C27B0)
