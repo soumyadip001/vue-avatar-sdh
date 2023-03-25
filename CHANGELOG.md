@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.2] - 2023-03-25
+## [1.0.4] - 2023-03-25
 
 ### Added
 
@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added theme prop
 - Added all the ROBO images
 - Added prop definations
+- Issue: [#3](https://github.com/soumyadip001/vue-avatar-sdh/issues/3)
+- PR: [#2](https://github.com/soumyadip001/vue-avatar-sdh/pull/2)
 
 ## [1.0.2] - 2022-02-23
 
