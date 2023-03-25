@@ -19,6 +19,14 @@ export default defineComponent({
         borderRadius: '5px',
         padding: '0.6rem',
       },
+      customStyleIcon: {
+        backgroundColor: 'transparent',
+        padding: '0.6rem',
+      },
+      customStyleIconFilled: {
+        backgroundColor: 'black',
+        padding: '0.6rem',
+      }
     }
   }
 });
@@ -220,6 +228,34 @@ export default defineComponent({
           <code>&lt;Avatar username="Soumyadip Hazra" :inline="true" :customStyle="customstyle2" /></code>
           <code>customstyle2: {
   borderRadius: '5px',
+  padding: '0.6rem',
+},</code>
+        </pre>
+      </div>
+    </div>
+
+    <div class="example-container">
+      <h5>Theme Property <code>theme</code></h5>
+      <p class="description mb-1">By using the <code>theme</code> property, it will create and assign a random theme with it. For now it only supports <code>ROBO</code>. Also please remember to use this below credit from <a href="https://www.flaticon.com/packs/robotics-27/2?word=robot" target="_blank" rel="nonoopener noreferrer">flaticon.com</a>
+      </p>
+      <p>
+        <code>&lt;div>Icons made by &lt;a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons&lt;/a> from &lt;a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com&lt;/a>&lt;/div></code>
+      </p>
+      <br>
+      <div class="row">
+        <div class="items">
+          <Avatar username="Soumyadip Hazra" theme="ROBO" :customStyle="customStyleIcon" />
+        </div>
+        <div class="items">
+          <Avatar username="Soumyadip Hazra" theme="ROBO" :customStyle="customStyleIconFilled" :rounded="false" />
+        </div>
+      </div>
+      <div class="row code-block">
+        <pre>
+          <code>&lt;Avatar username="Soumyadip Hazra" theme="ROBO" :customStyle="customStyleIcon" /></code>
+          <code>&lt;Avatar username="Soumyadip Hazra" theme="ROBO" :customStyle="customStyleIconFilled" /></code>
+          <code>customStyleIconFilled: {
+  backgroundColor: 'black',
   padding: '0.6rem',
 },</code>
         </pre>

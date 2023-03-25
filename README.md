@@ -260,6 +260,7 @@ Looking for all the supported props and there use cases? We have got you covered
 | `rounded` | Boolean | Rounded border(`borderRadius` of `50%`) or square(false). default: `true` |
 | `size` | Number | `width` and `height` of the avatar in `pixels`. default: 50 |
 | `src` | String | User provided thumbnail if any |
+| `theme` | String | User provided theme. For now we only support `ROBO` |
 | `username` | Boolean | (`required`) The name of the user |
 
 -------------------
